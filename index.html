@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Achtenberg - Technical Lead, SRE & AI</title>
+    <meta name="description" content="Technical Lead building reliable AI-augmented infrastructure at BMO. SRE, IoT, and community data projects.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Andrew Achtenberg - Technical Lead, SRE & AI">
+    <meta property="og:description" content="Technical Lead building reliable AI-augmented infrastructure at BMO. SRE, IoT, and community data projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aachtenberg.github.io">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <h1>Andrew Achtenberg</h1>
+            <p class="role">Technical Lead, SRE & AI @ BMO</p>
+            <p class="tagline">Building reliable AI-augmented infrastructure at scale. Homelab IoT, community data, and practical SRE tooling.</p>
+            <div class="links">
+                <a href="https://github.com/aachtenberg" target="_blank" rel="noopener noreferrer" class="link-button">
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/aachtenberg/" target="_blank" rel="noopener noreferrer" class="link-button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    LinkedIn
+                </a>
+            </div>
+        </header>
+
+        <!-- Featured Projects -->
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            
+            <article class="project featured">
+                <h3>
+                    <a href="https://github.com/aachtenberg/cfoperator" target="_blank" rel="noopener noreferrer">
+                        🤖 CFOperator
+                    </a>
+                </h3>
+                <p class="project-description">Self-hosted AI SRE agent that triages Alertmanager alerts, investigates with Prometheus/Loki/Kubernetes tools, and opens GitOps fix PRs. Local Ollama by default; no phone-home. It never mutates a running cluster — the merge button stays human.</p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Prometheus</span>
+                    <span>Kubernetes</span>
+                    <span>Ollama</span>
+                    <span>GitOps</span>
+                </div>
+            </article>
+
+            <article class="project featured">
+                <h3>
+                    <a href="https://github.com/aachtenberg/ottawa-river-freshet" target="_blank" rel="noopener noreferrer">
+                        🌊 Ottawa River Freshet
+                    </a>
+                </h3>
+                <p class="project-description">Community flood-monitoring stack for the Ottawa River watershed with a public case file on post-2017 spring flood peaks. Live dashboard at <a href="https://freshet.xgrunt.com" target="_blank" rel="noopener noreferrer">freshet.xgrunt.com</a> brings Hydro-Québec, ECCC, MVCA, and Quebec Vigilance telemetry into TimescaleDB / PostgREST on homelab k3s. Built to be public, reproducible, opinionated, and falsifiable.</p>
+                <div class="tech-tags">
+                    <span>TimescaleDB</span>
+                    <span>PostgREST</span>
+                    <span>k3s</span>
+                    <span>Python</span>
+                    <span>Chart.js</span>
+                </div>
+            </article>
+
+            <article class="project">
+                <h3>
+                    <a href="https://github.com/aachtenberg/dynatrace-dql-kb" target="_blank" rel="noopener noreferrer">
+                        📚 Dynatrace DQL Knowledge Base
+                    </a>
+                </h3>
+                <p class="project-description">DQL reference docs, Copilot agents, and a RAG pipeline so LLMs produce working DQL instead of hallucinated queries.</p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Dynatrace DQL</span>
+                    <span>RAG</span>
+                </div>
+            </article>
+
+            <article class="project">
+                <h3>
+                    <a href="https://github.com/aachtenberg/snow-query" target="_blank" rel="noopener noreferrer">
+                        🔌 snowq
+                    </a>
+                </h3>
+                <p class="project-description">Query ServiceNow REST APIs by reusing an SSO browser session — no API user or OAuth client required.</p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Playwright</span>
+                    <span>ServiceNow</span>
+                </div>
+            </article>
+
+            <article class="project">
+                <h3>
+                    <a href="https://github.com/aachtenberg/luna-voice-assistant" target="_blank" rel="noopener noreferrer">
+                        🎙️ Luna Voice Assistant
+                    </a>
+                </h3>
+                <p class="project-description">Self-hosted voice assistant with wake word, local STT/TTS, LLM fallback chain, and smart-home tools — privacy-first replacement for a cloud speaker.</p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>OpenWakeWord</span>
+                    <span>Ollama</span>
+                    <span>MQTT</span>
+                </div>
+            </article>
+
+            <article class="project">
+                <h3>
+                    <a href="https://github.com/aachtenberg/raspberry-pi-camera-control" target="_blank" rel="noopener noreferrer">
+                        📹 Raspberry Pi Camera Control
+                    </a>
+                </h3>
+                <p class="project-description">Multi-camera surveillance system with web UI, dual streaming modes, and MQTT integration. Hardware H.264 encoding with real-time settings control.</p>
+                <div class="tech-tags">
+                    <span>Raspberry Pi</span>
+                    <span>HLS</span>
+                    <span>MQTT</span>
+                    <span>Flask</span>
+                </div>
+            </article>
+
+            <article class="project">
+                <h3>
+                    <a href="https://github.com/aachtenberg/esp32-lora-sensor" target="_blank" rel="noopener noreferrer">
+                        📡 ESP32 LoRa Sensor Network
+                    </a>
+                </h3>
+                <p class="project-description">Long-range wireless sensor network with ESP32-S3 LoRa nodes and gateway. BME280 sensors monitor temperature, humidity, and pressure with MQTT bridge.</p>
+                <div class="tech-tags">
+                    <span>ESP32-S3</span>
+                    <span>LoRa</span>
+                    <span>MQTT</span>
+                    <span>C++</span>
+                </div>
+            </article>
+
+            <article class="project">
+                <h3>
+                    <a href="https://github.com/aachtenberg/esp-sensor-hub" target="_blank" rel="noopener noreferrer">
+                        🌡️ ESP Sensor Hub
+                    </a>
+                </h3>
+                <p class="project-description">Multi-board ESP32/ESP8266 temperature sensor firmware with cloud logging.</p>
+                <div class="tech-tags">
+                    <span>ESP32</span>
+                    <span>ESP8266</span>
+                    <span>InfluxDB</span>
+                    <span>C++</span>
+                </div>
+            </article>
+
+            <article class="project">
+                <h3>
+                    <a href="https://github.com/aachtenberg/raspberry-pi-docker" target="_blank" rel="noopener noreferrer">
+                        🥧 Raspberry Pi Docker Infrastructure
+                    </a>
+                </h3>
+                <p class="project-description">Production self-hosted stack: InfluxDB, Grafana, Home Assistant, Prometheus, Nginx Proxy Manager, Cloudflare Tunnels.</p>
+                <div class="tech-tags">
+                    <span>Docker</span>
+                    <span>InfluxDB</span>
+                    <span>Grafana</span>
+                    <span>Prometheus</span>
+                </div>
+            </article>
+        </section>
+
+        <!-- About & Experience -->
+        <section class="about">
+            <h2>About</h2>
+            <p>I'm a Technical Lead at BMO working on high-availability systems design and practical AI-augmented engineering practices. My work spans SRE tooling, IoT infrastructure, and community data projects where the stakes are real and the audience is actual neighbours.</p>
+            
+            <p class="learning-note">AI tools such as Claude, GitHub Copilot, and AWS Bedrock are useful force multipliers for infrastructure work. I still steer the architecture, security, and reliability decisions, while using AI to speed up implementation, analysis, and review. Projects like CFOperator push this further: scheduled agents for investigations and daily briefs, RAG over past incidents, and keeping a human on the merge button.</p>
+
+            <h3>Experience Highlights</h3>
+            <ul class="experience">
+                <li>
+                    <strong>BMO</strong> — Technical Lead, SRE & AI (2023-Present)<br>
+                    <span class="experience-detail">Leading high-availability systems design and practical AI-augmented engineering practices</span>
+                </li>
+                <li>
+                    <strong>BlackBerry</strong> — Senior Technical Manager (2013-2019)<br>
+                    <span class="experience-detail">Led Enterprise Cloud & Data Platforms across AWS, Azure, and private clouds</span>
+                </li>
+                <li>
+                    <strong>BlackBerry</strong> — Senior Software Developer (2010-2012)<br>
+                    <span class="experience-detail">Scaled BBM infrastructure to 100M+ users across distributed data centers</span>
+                </li>
+                <li>
+                    <strong>Research In Motion</strong> — Infrastructure Engineering Specialist (2007-2010)<br>
+                    <span class="experience-detail">SME for BBM infrastructure and massively distributed cloud systems</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="tech-stack">
+            <h2>Tech Stack</h2>
+            
+            <div class="tech-category">
+                <h3>SRE/DevOps</h3>
+                <div class="tech-tags">
+                    <span>Terraform</span>
+                    <span>Terragrunt</span>
+                    <span>AWS CDK</span>
+                    <span>OpenTofu</span>
+                    <span>Kubernetes</span>
+                    <span>k3s</span>
+                    <span>EKS</span>
+                    <span>Docker</span>
+                    <span>Dynatrace</span>
+                    <span>Grafana</span>
+                    <span>Prometheus</span>
+                    <span>Loki</span>
+                    <span>GitHub Actions</span>
+                    <span>GitOps</span>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h3>Cloud</h3>
+                <div class="tech-tags">
+                    <span>AWS</span>
+                    <span>Azure</span>
+                    <span>GCP</span>
+                    <span>OpenStack</span>
+                    <span>OpenNebula</span>
+                    <span>Cloudflare</span>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h3>Databases</h3>
+                <div class="tech-tags">
+                    <span>Postgres</span>
+                    <span>TimescaleDB</span>
+                    <span>PostgREST</span>
+                    <span>pgvector</span>
+                    <span>InfluxDB</span>
+                    <span>Cassandra</span>
+                    <span>Oracle</span>
+                    <span>MariaDB</span>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h3>IoT/Embedded</h3>
+                <div class="tech-tags">
+                    <span>ESP32-S3</span>
+                    <span>ESP8266</span>
+                    <span>Raspberry Pi</span>
+                    <span>LoRa</span>
+                    <span>MQTT</span>
+                    <span>C/C++</span>
+                    <span>PlatformIO</span>
+                    <span>Arduino</span>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h3>Languages</h3>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Bash</span>
+                    <span>C/C++</span>
+                    <span>Go</span>
+                    <span>Java</span>
+                    <span>JavaScript</span>
+                    <span>TypeScript</span>
+                    <span>HCL</span>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h3>AI Tools</h3>
+                <div class="tech-tags">
+                    <span>Claude</span>
+                    <span>GitHub Copilot</span>
+                    <span>AWS Bedrock</span>
+                    <span>Anthropic API</span>
+                    <span>Ollama</span>
+                    <span>RAG</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Always learning and always building.</p>
+            <p class="footer-links">
+                <a href="https://github.com/aachtenberg" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span>·</span>
+                <a href="https://www.linkedin.com/in/aachtenberg/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

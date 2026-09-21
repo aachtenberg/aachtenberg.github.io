@@ -1,3 +1,7 @@
 # aachtenberg.github.io
 
-Personal site for Andrew Achtenberg. Published via GitHub Pages.
+Personal portfolio site for Andrew Achtenberg.
+
+Live at: **https://aachtenberg.github.io**
+
+This repository contains a static GitHub Pages site showcasing projects, experience, and tech stack.
