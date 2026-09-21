@@ -360,13 +360,17 @@ body {
 }
 
 .exp-header {
-    font-size: 13.5px;
-    color: var(--text);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     gap: 12px;
     flex-wrap: wrap;
+}
+
+.exp-title {
+    font-size: 13.5px;
+    color: var(--text);
+    text-align: left;
 }
 
 .exp-company {
@@ -379,6 +383,7 @@ body {
     font-size: 11px;
     color: var(--faint);
     white-space: nowrap;
+    margin-left: auto;
 }
 
 .exp-detail {
