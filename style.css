@@ -369,6 +369,11 @@ body {
     font-weight: 500;
 }
 
+.exp-aside {
+    font-weight: 400;
+    color: var(--faint);
+}
+
 .exp-date {
     flex: 0 0 auto;
     margin-left: auto;
